@@ -1,0 +1,8 @@
+monitoring:
+  services:
+    -
+      name: "service1"
+      healthUrl: "https://mock.codes/200"
+    -
+      name: "service2"
+      healthUrl: "https://mock.codes/500"
