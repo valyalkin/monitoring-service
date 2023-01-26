@@ -1,3 +1,13 @@
+spring:
+  jpa:
+    generate-ddl: true
+  datasource:
+    url: jdbc:postgresql://localhost/monitoring
+    username: app
+    password: appPassword
+
+
+
 monitoring:
   services:
     -
